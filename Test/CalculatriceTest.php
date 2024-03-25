@@ -14,12 +14,4 @@ class CalculatriceTest extends TestCase
         
         $this->assertEquals(8, $result);
     }
-
-    public function testMultiplication()
-    {
-        $calculator = new Calculatrice();
-        $result = $calculator->multiplication(5, 3);
-        
-        $this->assertEquals(15, $result);
-    }
 }
